@@ -63,6 +63,11 @@
     margin-bottom: 0;
 }
 
+.radio-options input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+
 .submit-button {
     width: 100%;
     background-color: var(--color-primary);
@@ -112,11 +117,5 @@
         flex-direction: column;
         gap: 10px;
     }
-
-    .radio-options input[type="radio"] {
-        margin-right: 10px;
-        transform: scale(1.5);
-    }
-
-
 }
+
