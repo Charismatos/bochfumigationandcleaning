@@ -1,0 +1,14 @@
+# Specify the Googlebot crawler
+User-agent: Googlebot
+# Allow access to all pages for primary indexing
+Allow: /
+
+# Specify all other crawlers
+User-agent: *
+
+# Disallow access to the asset folder which may contain template files (optional, as they aren't meant to be crawled anyway)
+Disallow: /assets/header.html
+Disallow: /assets/footer.html
+
+# Location of your sitemap
+Sitemap: https://www.bochcleaners.com/sitemap.xml
