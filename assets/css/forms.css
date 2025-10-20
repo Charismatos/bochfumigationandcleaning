@@ -107,4 +107,16 @@
         padding: 20px;
     }
 
+    .radio-options {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .radio-options input[type="radio"] {
+        margin-right: 10px;
+        transform: scale(1.5);
+    }
+
+
 }
